@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="../index.js"></script>
+    <script type="module" src="quiz.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="p-header">
+        <nav class="nav-bar">
+            <div id=left-side>
+                <div id=logo-container>
+                    <img class="logo" src="../images/logo.svg" alt="ChainLearn logo">
+                </div>
+                <div class="toggle-container">
+                    <a href="#" class="toggle-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+            </div>
+            </div>
+          
+            <div id=right-side>
+                <button class="logged-in-btn">Sign out</button>
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+       <section class="assessment-section">
+           
+       <div class="assessment-card">
+          
+           <div class="results">
+            <h3>Results</h3>
+            <div><p class="questions-answered"></p></div>
+           <div class="score-container"><p class="score"></p></div>
+           <div class="result-buttons">
+               <button class="retake-btn">Retake</button>
+               <button class="exit-quiz-btn">Exit</button>
+            </div>
+            <h3>Your answers:</h3>
+           </div>
+           <div class="quiz-info">
+               <h3>Assessment: Foundations Of Blockchain Quiz</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+           </div>
+           <div class="quiz-form">
+           
+           </div>
+           
+           
+   
+
+       
+       </div>
+       <div class="confirm-prompt">
+        <div class="confirm-header">
+            <p>Confirm submission</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+        </div>
+       <div class="confirm-text">
+        <p>Upon submission you will not be able to change your answers and any unanswered questions will automatically be scored as zero. <br>
+           Are you ready to submit?
+        </p>
+  
+        <div class="confirm-buttons">
+            
+            <button class="cancel-btn">Cancel</button>
+            <button class="confirm-submit-btn">Submit</button>
+        </div>
+    </div>
+    </section>
+    </div>
+   
+    
+</body>
+</html>

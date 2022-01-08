@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="index.js">
+          
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div id=left-side>
+                <div id=logo-container>
+                    <img class="logo" src="images/logo.svg" alt="ChainLearn logo">
+                </div>
+                <div class="toggle-container">
+                    <a href="#" class="toggle-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+            </div>
+            </div>
+           
+            <div id=right-side>
+                <button class="h-log-in">Sign in</button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="login-wrapper">
+        <div class="error-message">
+            <p>Invalid email or password.</p>
+           <svg class='x' xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+    <div class="login-container">
+       
+        <div class="login-card">
+            <div class="form">
+                <h3 class="login-text">Sign up</h3>
+                <div class="input-box-wrapper">
+                    <div class="form-seperator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                      </svg>
+                    </div>
+                    <input id="email" type="email" name="email"required placeholder="Email Address"> 
+
+                </div>
+                 <div class="input-box-wrapper"> 
+                    <div class="form-seperator">
+                    <i style="font-size:38px" class="fa">&#xf023;</i>
+                    </div>
+                    <input type="password" id="pwd" name="password" required placeholder="Password">
+
+                </div>
+              
+                <div><button class="sign-up-btn">Sign in</button></div>
+                <p>Already have an account? <span> <a href="login.html">Log in here</a></span></p>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+</body>
