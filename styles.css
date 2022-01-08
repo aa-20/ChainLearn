@@ -237,8 +237,8 @@ width: 100%;
 
 
 #image-box{
-    max-width: 395px;
-    max-height: 395px;
+    max-width: 340px;
+    max-height: 340px;
     display: flex;
     align-items: center;
 }
@@ -776,7 +776,7 @@ figure{
 }
 
 .previous{
-    width: 7.5rem;
+    width: auto;
     height: 3rem;
     font-size: 1.2rem;
     color: white;
