@@ -82,7 +82,7 @@ const firebaseConfig = {
   }
 
 function signOut(){
-    window.location.replace('../index.html'); // when the sign out button is clicked,the user is re-assigned to the index page.
+    window.location.replace('../login.html'); // when the sign out button is clicked,the user is re-assigned to the index page.
 }
 
 
