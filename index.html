@@ -7,6 +7,8 @@
     <title>Document</title>
     <script type="module" src="index.js"></script>
     <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript">!function(n,e){var t,o,i,c=[],f={passive:!0,capture:!0},r=new Date,a="pointerup",u="pointercancel";function p(n,c){t||(t=c,o=n,i=new Date,w(e),s())}function s(){o>=0&&o<i-r&&(c.forEach(function(n){n(o,t)}),c=[])}function l(t){if(t.cancelable){var o=(t.timeStamp>1e12?new Date:performance.now())-t.timeStamp;"pointerdown"==t.type?function(t,o){function i(){p(t,o),r()}function c(){r()}function r(){e(a,i,f),e(u,c,f)}n(a,i,f),n(u,c,f)}(o,t):p(o,t)}}function w(n){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(e){n(e,l,f)})}w(n),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){c.push(n),s()}}(addEventListener,removeEventListener);</script>
+
 
 </head>
 <body>
@@ -177,37 +179,32 @@
                
                 <div class="contact-wrapper">
                     
+                    <div class="contact-container">
+                        <label for="Name">Name <span class="asterisk">*</span></label>
+                        <input id="contact-name" name="Name" type="text" required>
+                    </div>
+                
+                    <div class="contact-container"> 
+                        <label for="Email">Email <span class="asterisk">*</span></label>
+                        <input id="contact-email" name="Email" type="email" required>
+                    </div>
 
+                    <div class="contact-container">
+                        <label for="Subject">Subject <span class="asterisk">*</span></label>
+                        <input id="contact-subject" name="Subject" type="text" required>
+                    </div>
+                    
                
-                <div class="contact-container">
-                    <label for="Name">Name</label>
-                    <input id="contact-name" name="Name" type="text" required></div>
-                
-                <div class="contact-container"> 
-                    <label for="Email">Email</label>
-                    <input id="contact-email" name="Email" type="email" required>
-                </div>
 
-                <div class="contact-container">
-                    <label for="Subject">Subject</label>
-                    <input id="contact-subject" name="Subject" type="text" required></div>
-                
-               
-
-                <div class="contact-container">
-                     <label for="Message">Message</label>
-                    <textarea id="message-box"  name="Message" rows="3" cols="5" placeholder="Enter your comments here" required></textarea>
-                </div>
-                
+                    <div class="contact-container">
+                        <label for="Message">Message <span class="asterisk">*</span></label>
+                        <textarea id="message-box"  name="Message" rows="3" cols="5" placeholder="Enter your comments here" required></textarea>
+                    </div>
+                    
                 <input class="contact-btn" type="submit" value="Send Message">
             </div>
-            </div>
-           
-            
-               
 
-            </form>
-
+        </form>
         </section>
 
 
