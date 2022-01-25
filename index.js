@@ -1,5 +1,9 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword,createUserWithEmailAndPassword  } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-auth.js";
+import { getPerformance } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-performance.js";
+
+
+
 
 const firebaseConfig = {
     apiKey: "AIzaSyCPfilrGWJaFE-Bm5HutBi6gouLcUf4xIM",
@@ -13,6 +17,8 @@ const firebaseConfig = {
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
+  const perf = getPerformance(app);
+  
 
   const emailBox = document.querySelector('#email');
   const passwordBox = document.querySelector('#pwd');
