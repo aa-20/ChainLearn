@@ -1,6 +1,9 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
 import { getDatabase, ref, child, get  } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js";
+import { getPerformance } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-performance.js";
+import {getCLS, getFID, getLCP} from 'https://unpkg.com/web-vitals?module';
 
+  
 
 const firebaseConfig = {
     apiKey: "AIzaSyCPfilrGWJaFE-Bm5HutBi6gouLcUf4xIM",
@@ -13,6 +16,11 @@ const firebaseConfig = {
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+  const perf = getPerformance(app);
+
+  getCLS(console.log);
+  getFID(console.log);
+  getLCP(console.log);
   
 
   
