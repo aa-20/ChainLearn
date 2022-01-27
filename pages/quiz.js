@@ -185,8 +185,8 @@ function checkAnswers(){
         
         
     }
-    questionsAnswered.textContent = `You answered ${question.length - nullCounter} out of ${questions.length} questions`
-    finalScore.textContent = `You scored ${score} of out ${question.length} (${(score/question.length) * 100}  %)`;
+    questionsAnswered.textContent = `Questions Answered: ${question.length - nullCounter} out of ${questions.length} questions`
+    finalScore.textContent = `Score Achieved: (${(score/question.length) * 100}  %)`;
 }
 
 submitBtn.addEventListener('click',function(){
