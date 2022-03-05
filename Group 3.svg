@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="407" height="96" viewBox="0 0 407 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="96" height="96" transform="translate(25 12)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-1 -9)">
+    <text id="ChainLearn" transform="translate(115 79)" fill="#f8f1f1" font-size="55" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">ChainLearn</tspan></text>
+    <g id="logo" transform="translate(-24 -3)" clip-path="url(#clip-path)">
+      <path id="Path_2" data-name="Path 2" d="M99.2,86.2a8.993,8.993,0,0,1-12.7,0L78,77.7a8.836,8.836,0,0,1-1.7-10.2l7.4,7.4a2.99,2.99,0,0,0,4.2-.1,3.085,3.085,0,0,0,.1-4.2l-7.4-7.4A9.026,9.026,0,0,1,90.8,65l8.5,8.5A9.087,9.087,0,0,1,99.2,86.2ZM55.3,55l-8.5-8.5A8.98,8.98,0,0,1,59.5,33.8L68,42.3a9.026,9.026,0,0,1,1.8,10.2l-6-6a2.99,2.99,0,0,0-4.2.1,3.085,3.085,0,0,0-.1,4.2l6,6A9.026,9.026,0,0,1,55.3,55Zm48.1,14.2-8.5-8.5A14.867,14.867,0,0,0,76,58.8L74.2,57a15.136,15.136,0,0,0-1.9-18.9l-8.5-8.5A15.176,15.176,0,0,0,43,30a14.977,14.977,0,0,0-.4,20.8l8.5,8.5A14.867,14.867,0,0,0,70,61.2L71.8,63a15.136,15.136,0,0,0,1.9,18.9l8.5,8.5a15,15,0,0,0,21.2-21.2Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
