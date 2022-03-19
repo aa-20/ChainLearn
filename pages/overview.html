@@ -10,11 +10,11 @@
     <script type="text/javascript">!function(n,e){var t,o,i,c=[],f={passive:!0,capture:!0},r=new Date,a="pointerup",u="pointercancel";function p(n,c){t||(t=c,o=n,i=new Date,w(e),s())}function s(){o>=0&&o<i-r&&(c.forEach(function(n){n(o,t)}),c=[])}function l(t){if(t.cancelable){var o=(t.timeStamp>1e12?new Date:performance.now())-t.timeStamp;"pointerdown"==t.type?function(t,o){function i(){p(t,o),r()}function c(){r()}function r(){e(a,i,f),e(u,c,f)}n(a,i,f),n(u,c,f)}(o,t):p(o,t)}}function w(n){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(e){n(e,l,f)})}w(n),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){c.push(n),s()}}(addEventListener,removeEventListener);</script>
 </head>
 <body>
-    <header class="p-header">
+    <header class="header">
         <nav class="nav-bar">
             <div id=left-side>
                 <div id=logo-container>
-                    <img class="logo" src="../images/logo.svg" alt="ChainLearn logo">
+                    <a href="../pages/course.html"><img class="logo" src="../images/Group 3 .png" alt="ChainLearn logo"></a>
                 </div>
                 <div class="toggle-container">
                     <a href="#" class="toggle-btn">
@@ -35,13 +35,13 @@
         <div class="wrapper overview-wrapper">
             
             <div class="p-image-container course-image-container">
-                <img class="p-image-test" src="../images/course-logo-resized-v2.png" alt="blockchain">
+                <img class="p-image-test" src="../images/course-logo-resized.png" alt="blockchain">
                 </div>
-                <h3>Foundations</h3> 
+                <p class="course-heading">Foundations Of Blockchain</p> 
 
             <div class="course-overview">
                 <div class="course-content overview-content">
-                    <h3>Course Overview</h3>
+                    <p class="course-heading1">Course Overview</p> 
                     <p>
                         The Foundations of Blockchain course is made up the following:
                     </p>

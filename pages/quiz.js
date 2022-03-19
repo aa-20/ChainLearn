@@ -57,6 +57,7 @@ const results = document.querySelector('.results');
 const retakeButton = document.querySelector('.retake-btn');
 const exitButton = document.querySelector('.exit-quiz-btn');
 const quizInfo = document.querySelector('.quiz-info');
+const xit = document.querySelector('.confirm-x');
 
 
 
@@ -228,6 +229,12 @@ confirmButton.addEventListener('click',function(){
 
 
 })
+
+xit.addEventListener('click',function(){
+    confirmPrompt.style.visibility="hidden";
+    
+    body.style.overflow="scroll";
+});
 
 
 

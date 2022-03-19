@@ -30,7 +30,7 @@ const firebaseConfig = {
   const errorMessage = document.querySelector('.error-message');
   const toggleBtn = document.querySelector('.toggle-btn');
   const rightSide = document.getElementById('right-side');
-
+  
   toggleBtn.addEventListener('click',function(){
     rightSide.classList.toggle('active');
   }
@@ -122,3 +122,4 @@ if(exit){
 
   })
 }
+
